@@ -16,7 +16,7 @@ class ViewController: UIViewController, ARSessionDelegate, ARSCNViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        print("feature/test1")
+        print("feature/test2")
         
         // シーンを生成してARSCNViewにセット
         sceneView.scene = SCNScene(named: "art.scnassets/ship.scn")!
